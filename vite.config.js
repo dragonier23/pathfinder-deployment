@@ -6,6 +6,7 @@ import vueJsx from '@vitejs/plugin-vue-jsx'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: '/pathfinder-deployment/',
   plugins: [
     vue(),
     vueJsx(),
